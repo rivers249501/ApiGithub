@@ -16,6 +16,7 @@ const SingleUser = () => {
             setSelectedUser(result)
         }
         requestApi()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     return (

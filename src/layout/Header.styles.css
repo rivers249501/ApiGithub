@@ -1,6 +1,6 @@
 .menuNav{
     height: 2.4rem;
-    /*background-color: #191A19;*/
+    
     transition: .4s ease-in-out;
 }
 
@@ -9,33 +9,3 @@
     transition: .4s ease-in-out;
 }
 
-/*
-.menuNav>ul{
-    margin-top: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0;
-}
-
-.fa-home, .fa-bars, .round{
-    color: #fff;
-    text-decoration: none;
-    
-}
-
-.round{
-    font-weight: bolder;
-}
-
-.menuNav>ul>li{
-    margin-top: 0.5rem;
-}
-
-.menuNav>ul>li>span{
-    color: #4E9F3D;
-    font-weight: bolder;
-    margin-left: 0.3rem;
-    cursor: pointer;
-}
-*/

@@ -21,13 +21,13 @@ const Header = () => {
                 <div className= {show ? "menuNav" : "notVisible"}>
                             <ul className="flex justify-between w-full bg-blue">
                                 <li onClick={()=> navigate('/')}>
-                                    <a class="fa fa-home"/><span>Home</span>
+                                    <div className ="fa fa-home" /><span>Home</span>
                                 </li>
                                 <li onClick={()=> navigate(- 1)}>
-                                    <a href="#" class="previous round">&#8249;</a><span>Go Back</span>
+                                    <div href="#" class="previous round">&#8249;</div><span>Go Back</span>
                                 </li>
                                 <li onClick={()=> navigate(+ 1)}>
-                                    <span className="onlySpan">Next</span><a href="#" class="next round">&#8250;</a>   
+                                    <span className="onlySpan">Next</span><div href="#" class="next round">&#8250;</div>   
                                 </li>
                             </ul>
                 </div>
